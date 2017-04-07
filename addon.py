@@ -33,7 +33,7 @@ STATIC_STREAMS = (
     {
         'title': 'Public-Education Channel HD',
         'logo': 'public.jpg',
-        'stream_url': ('https://nasa-i.akamaihd.net/hls/',
+        'stream_url': ('https://nasa-i.akamaihd.net/hls/'
                         'live/253565/NTV-Public/master.m3u8'),
     }, {
         'title': 'ISS Live Stream',
@@ -43,7 +43,7 @@ STATIC_STREAMS = (
     }, {
         'title': 'Media Channel HD',
         'logo': 'media.jpg',
-        'stream_url': ('https://nasa-i.akamaihd.net/hls/', 
+        'stream_url': ('https://nasa-i.akamaihd.net/hls/'
                         'live/253566/NTV-Media/master.m3u8'),
     },{
         'title': 'ISS HD Earth Viewing - ustream',
