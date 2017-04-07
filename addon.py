@@ -31,25 +31,20 @@ STRINGS = {
 
 STATIC_STREAMS = (
     {
-        'title': 'Nasa TV HD',
+        'title': 'Public-Education Channel HD',
         'logo': 'public.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_101@319270/master.m3u8'),
+        'stream_url': ('https://nasa-i.akamaihd.net/hls/',
+                        'live/253565/NTV-Public/master.m3u8'),
     }, {
         'title': 'ISS Live Stream',
         'logo': 'iss.jpg',
         'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/'
                        '9408562/streams/live/playlist.m3u8'),
     }, {
-        'title': 'Educational Channel HD',
-        'logo': 'edu.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_102@319272/master.m3u8'),
-    }, {
         'title': 'Media Channel HD',
         'logo': 'media.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_103@319271/master.m3u8'),
+        'stream_url': ('https://nasa-i.akamaihd.net/hls/', 
+                        'live/253566/NTV-Media/master.m3u8'),
     },{
         'title': 'ISS HD Earth Viewing - ustream',
         'logo': 'isshd.jpg',
